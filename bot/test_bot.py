@@ -1,5 +1,5 @@
 import unittest
-from handler_message import Handler_message
+from bot.handler_message import Handler_message
 from States import State_Machine
 
 class TestRequests(unittest.TestCase):

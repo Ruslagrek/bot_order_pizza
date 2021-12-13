@@ -1,6 +1,6 @@
 import telebot
-from handler_message import Handler_message
-import Config
+from bot.handler_message import Handler_message
+from bot import Config
 
 bot = telebot.TeleBot(Config.TOKEN)
 handler = Handler_message()
